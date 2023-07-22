@@ -297,6 +297,7 @@ body {
     .about-photo {
       flex: 0 auto;
       align-self: center;
+      justify-content: center;
       margin-left: auto;
       margin-right: auto;
       padding: 0px;
