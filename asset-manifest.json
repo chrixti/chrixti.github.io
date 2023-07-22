@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.b7569b7f.css",
-    "main.js": "/static/js/main.5f911530.js",
-    "static/js/787.d8222035.chunk.js": "/static/js/787.d8222035.chunk.js",
-    "static/media/divhacksweb.png": "/static/media/divhacksweb.72a981278c84f4598901.png",
-    "static/media/banner3.jpg": "/static/media/banner3.e3914907e190e505e987.jpg",
-    "static/media/banner1.jpg": "/static/media/banner1.a7a90e0e46c0e7838cb9.jpg",
-    "static/media/banner2.jpg": "/static/media/banner2.e04f669ef520a6b7a699.jpg",
-    "static/media/logo.png": "/static/media/logo.52cf7b2c123eed4d646a.png",
-    "index.html": "/index.html",
-    "main.b7569b7f.css.map": "/static/css/main.b7569b7f.css.map",
-    "main.5f911530.js.map": "/static/js/main.5f911530.js.map",
-    "787.d8222035.chunk.js.map": "/static/js/787.d8222035.chunk.js.map"
+    "main.css": "/chrixti.github.io/static/css/main.b7569b7f.css",
+    "main.js": "/chrixti.github.io/static/js/main.7a24b9c0.js",
+    "static/js/787.d8222035.chunk.js": "/chrixti.github.io/static/js/787.d8222035.chunk.js",
+    "static/media/divhacksweb.png": "/chrixti.github.io/static/media/divhacksweb.72a981278c84f4598901.png",
+    "static/media/banner3.jpg": "/chrixti.github.io/static/media/banner3.e3914907e190e505e987.jpg",
+    "static/media/banner1.jpg": "/chrixti.github.io/static/media/banner1.a7a90e0e46c0e7838cb9.jpg",
+    "static/media/banner2.jpg": "/chrixti.github.io/static/media/banner2.e04f669ef520a6b7a699.jpg",
+    "static/media/logo.png": "/chrixti.github.io/static/media/logo.52cf7b2c123eed4d646a.png",
+    "index.html": "/chrixti.github.io/index.html",
+    "main.b7569b7f.css.map": "/chrixti.github.io/static/css/main.b7569b7f.css.map",
+    "main.7a24b9c0.js.map": "/chrixti.github.io/static/js/main.7a24b9c0.js.map",
+    "787.d8222035.chunk.js.map": "/chrixti.github.io/static/js/787.d8222035.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b7569b7f.css",
-    "static/js/main.5f911530.js"
+    "static/js/main.7a24b9c0.js"
   ]
 }
