@@ -1,0 +1,49 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .logo img {
+    height: 50px;
+    }
+    
+    .email-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+
+    }
+    
+    .email-link a {
+    color: #000;
+    text-decoration: none;
+    margin-top: 10px;
+    }
+    
+    .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    }
+    
+    .social-links a {
+    margin-top: 10px;
+    color: rgb(64, 130, 109);
+    text-decoration: none;
+    font-size: 30px;
+    }
+    
+    .made-by {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+    color: #666;
+    font-family: 'Inter', sans-serif;
+
+    }
+
+    .footer{
+        margin-top: 120px;
+    }
