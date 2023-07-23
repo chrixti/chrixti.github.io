@@ -90,6 +90,8 @@ h1 {
 
   .Projects{
     padding-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
   }
 
 .item {
@@ -99,8 +101,8 @@ h1 {
 
 .item-con {
   padding-top: 50px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 60px;
+  padding-right: 60px;
   display: block;
 }
 
@@ -136,12 +138,12 @@ h1 {
 }
 .item-con h5 {
   margin-bottom: 10px;
-  font-family: 'Inter', sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   letter-spacing: 1px;
   font-weight: 400;
   color: #1a1b1f;
   opacity: .79;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .item-con p {
