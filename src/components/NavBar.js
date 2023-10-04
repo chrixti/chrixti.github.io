@@ -11,6 +11,11 @@ const Navbar = () => {
         setIsOpen(false);
     };
 
+    function handleClick() {
+        closeMenu();
+        openInNewTab(props.link);
+      }
+
     return (
         <nav>
             <div className="logo">
@@ -36,7 +41,7 @@ const Navbar = () => {
                 </li>
                 <li> <NavLink to="/Resume" onClick={closeMenu}> Resume </NavLink>
                 </li>
-                <li><NavLink to="" className="uxui-design-button" onClick={closeMenu}> Design </NavLink></li>
+                <li><NavLink to='https://chrixti.webflow.io' className="uxui-design-button" onClick={handleClick}> Design </NavLink></li>
             </ul>
 
         </nav>
