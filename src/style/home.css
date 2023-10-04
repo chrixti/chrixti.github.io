@@ -132,10 +132,6 @@ h1 {
   color: #1a1b1f;
 }
 
-.item-con h2:hover {
-  font-weight: 700;
-  color: #3e7058;
-}
 .item-con h5 {
   margin-bottom: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;

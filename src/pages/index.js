@@ -42,7 +42,7 @@ function Home() {
                 <div className = 'intro-container'>
                     <div className='div-block-3'>
                         <div className='intro-text'>
-                            <h1 className='name'>Christine</h1>
+                            <h1 className='name'>Christine Lam</h1>
                             <div className='description'>Dedicated to creating technical solutions that make a positive difference in the world</div>
                         </div>
                         <div className='div-block-4'> <img src={banner} width='349' sizes ='(max-width: 767px) 100vw, 349px' alt = 'banner' class='image-4' /></div>
