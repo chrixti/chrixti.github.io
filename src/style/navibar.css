@@ -1,27 +1,31 @@
-*  {
-    margin: 0;
-    padding: 0;
+* {
+    margin: 0.5;
     box-sizing: border-box;
     background-color: #f5f5fa;
 }
 
 nav {
     display: flex;
-    justify-content: space-between; /* Logo on the left, links on the right */
+    justify-content: space-between;
     align-items: center;
-    padding: 10px 0; /* Padding top and bottom */
-    font-family: Verdana, Geneva, sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f5f5fa;
+    opacity: 98%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 2px;
     position: fixed;
     top: 0;
-    left: 0;
-    right: 0;
-    background-color: #f5f5fa;
-    z-index: 1000;
+    width: 100%;
+    z-index: 100;
 }
 
 .logo img {
     height: 50px;
-    margin-left: 25px; /* Align logo with intro content padding */
 }
 
 .hamburger.hidden,
@@ -31,12 +35,10 @@ nav {
 
 .nav-links {
     display: flex;
-    align-items: center;
+    justify-content: center;
     list-style: none;
-    margin-right: 25px; /* Align nav items with intro content padding */
-    width: auto; /* Allow the width to be content-based */
+    background-color: #f5f5fa;
 }
-
 
 .nav-links a {
     text-decoration: none;
@@ -53,35 +55,30 @@ nav {
     margin: 0 0.5rem;
 }
 
-
-.nav-links .resume-button {
-    background-color: #f5f5fa; /* Your button background color */
-    color: #3e7058; /* Button text color */
-    border-radius: 20px; /* Rounded corners for the button */
-    padding: 10px 20px; /* Padding inside the button */
-    text-decoration: none;
-    transition: all 0.3s ease;
-    border: 2px solid #3e7058;
-}
-
-.nav-links .resume-button:hover {
+.nav-links .uxui-design-button {
     background-color: #3e7058;
     color: #f5f5fa;
-    border: 2px solid #3e7058;
-    font-weight: normal;
-    
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+
+.nav-links .uxui-design-button:hover {
+    color: #f5f5fa;
 }
 
 /* Responsive Styles */
 
-@media (min-width: 568px) {
+@media (min-width: 1024px) {
     .hamburger,
     .close-button {
         display: none;
     }
 }
 
-@media (max-width: 568px) {
+@media (max-width: 1024px) {
     .close-button {
         display: none;
         position: absolute;
@@ -135,7 +132,7 @@ nav {
         margin: 1rem 0;
     }
 
-    .nav-links .resume-button {
+    .nav-links .uxui-design-button {
         margin-left: auto;
         margin-right: auto;
     }
