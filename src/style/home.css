@@ -261,8 +261,7 @@ body {
 .project-image {
   flex: 1;
   padding: 10px;
-  margin-right: 10px;
-  max-width: 25%;
+  max-width: 100%;
 }
 
 .project-image img {

@@ -7,7 +7,7 @@ const items = [
         image: img1,
         title: 'Sonar Chess',
         category: 'React.js, Howler.js, Web Speech API, Python Flask, PyTorch, ARIA',
-        description: 'Sonar Chess is a fully accessible digital chess game designed for players with low vision and blindness. It features comprehensive audio navigation with distinct sounds for different pieces and movements, enhancing spatial awareness. The game utilizes Text-to-Speech (TTS) technology to provide real-time move announcements, game summaries, and navigable menu options. Players can use voice commands to interact with the game. For those with partial vision, a high-contrast visual mode is available, which enhances the visibility of the chess board and pieces. The game also includes an adaptive AI chess bot that offers various difficulty levels, catering to both beginners and advanced players, making Sonar Chess a versatile and inclusive platform for enjoying chess.',
+        description: 'Sonar Chess is a fully accessible digital chess game designed for players with low vision and blindness. It features comprehensive audio navigation with distinct sounds for different pieces and movements, enhancing spatial awareness. Text-to-Speech (TTS) technology is used to provide real-time move announcements and players can use voice commands to interact with the game. For those with partial vision, a high-contrast visual mode is available to enhnace the visibility of the chess board and pieces. There is an adaptive AI chess bot that offers various difficulty levels, catering to both beginners and advanced players.',
         link: '',
         comingSoon: true
     },
