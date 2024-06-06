@@ -36,7 +36,7 @@ function Home() {
                 <div className='section-separator'>
                     <span className='section-title'>03. Resume</span>
                 </div>
-                <a href="your-resume-link" target="_blank" rel="noopener noreferrer" className='resbubble'>
+                <a href="https://drive.google.com/file/d/1uYrD30Lwi1x0KpV58B4SmjO9DSBXFZsi/view?usp=sharing" target="_blank" rel="noopener noreferrer" className='resbubble'>
                     <FaFileAlt className="icon" /> View My Full Resume
                 </a>
             </section>
