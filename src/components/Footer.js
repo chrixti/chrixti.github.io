@@ -1,18 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import img2 from '../assets/logo.png';
+import '../style/home.css';
+import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
     return (
         <footer className='footer'>
-            <div className="logo">
-                <Link to="/">
-                    <img src={img2} alt="Logo" />
-                </Link>
+            <div className="made-by">
+                <p>Built by Christine with React.js</p>
             </div>
-
-  
 
             <div className="social-links">
                 <a href="https://www.linkedin.com/in/lchris08/" target="_blank" rel="noreferrer">
@@ -21,14 +16,9 @@ const Footer = () => {
                 <a href="https://github.com/chrixti" target="_blank" rel="noreferrer">
                     <FaGithub />
                 </a>
-            </div>
-
-            <div className="email-link">
-                <a href="mailto:your-email@example.com">lchristine9138@gmail.com</a>
-            </div>
-
-            <div className="made-by">
-                <p>Made by Christine 2023 with React.js</p>
+                <a href="mailto:lchristine9138@gmail.com" className="email-link">
+                    <FaEnvelope />
+                </a>
             </div>
         </footer>
     );

@@ -1,27 +1,43 @@
-import React from 'react'
+import React from 'react';
 import "../assets/projectplaceholder.png";
 
-
-function Menu({menuItem}) {
+function Menu({ menuItem }) {
     return (
         <div className="item">
             {
-                menuItem.map((item) =>{
-                    return <div className="item-con" key={item.id}> 
-                        <div className="item-container">
-                            <a href={item.link}> <img src={item.image} alt="project img"/> </a>
-                            <h2>{item.title}</h2>
-                            <h5>{item.category}</h5>
-                            <p>{item.description}</p>
-                           <div className="view-code"> 
-                                <a href={item.link}> <small>View Project</small></a> 
-                           </div>
+                menuItem.map((item) => {
+                    const categories = item.category.split(', ');
+                    return (
+                        <div className="item-con" key={item.id}>
+                            <div className="project-image">
+                                <a href={item.link}>
+                                    <img src={item.image} alt="project img" />
+                                </a>
+                            </div>
+                            <div className="project-content">
+                                <h2>{item.title}</h2>
+                                <div>
+                                    {categories.map((category, idx) => (
+                                        <span key={idx} className="category-bubble">{category}</span>
+                                    ))}
+                                </div>
+                                <p>{item.description}</p>
+                                <div className="view-code">
+                                    {
+                                        item.comingSoon ? (
+                                            <span className="bubble">Coming Soon</span>
+                                        ) : (
+                                            <a className="bubble" href={item.link}> View Project </a>
+                                        )
+                                    }
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                    );
                 })
             }
         </div>
-    )
+    );
 }
 
 export default Menu;
